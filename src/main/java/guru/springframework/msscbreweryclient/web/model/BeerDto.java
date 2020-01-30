@@ -1,19 +1,14 @@
 package guru.springframework.msscbreweryclient.web.model;
 
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 import java.util.UUID;
 
 /**
  * Created by jt on 2019-04-20.
  */
-@Data
-@NoArgsConstructor
-@AllArgsConstructor
-@Builder
+@Value
+@Builder(toBuilder= true)
 public class BeerDto {
 
     private UUID id;
