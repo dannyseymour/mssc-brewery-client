@@ -7,7 +7,7 @@ import java.util.UUID;
 /**
  * Created by jt on 2019-04-20.
  */
-@Value
+@Data
 @Builder(toBuilder= true)
 public class BeerDto {
 
